@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+
 .sidebar {
     background-image: url(Images/sidebar-pexels-darius-krause.jpg);
     width: max(600px); 
@@ -13,6 +14,48 @@ body {
     height: 100vh;
     background-size: cover;
     /* make it so that it stays at a fixed width but up and down scaling resizes? */
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credit-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text-background {
+    background-color: rgb(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.logo-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name {
+    font-family:'Lumanosimo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(115, 217, 193);
+    font-size: 3rem;
+}
+
+.name-bottom {
+    margin-left: auto;
+}
+
+.photo-credit {
+    margin-top: auto;
+    color: darkblue;
 }
 
 
