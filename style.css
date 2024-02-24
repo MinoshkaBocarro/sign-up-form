@@ -35,7 +35,7 @@ body {
     background-color: rgb(0, 0, 0, 0.23);
     display: flex;
     justify-content: center;
-    padding: 8px;
+    padding: 10px min(45px);
 }
 
 .logo-name-container {
@@ -58,5 +58,9 @@ body {
     color: darkblue;
 }
 
+.intro {
+    font-size: 1.5rem;
+    padding: 10px;
+}
 
 /* style :visited */
