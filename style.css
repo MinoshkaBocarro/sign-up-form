@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
+html {
+    box-sizing: border-box;
+}
 
 body {
     display: flex;
@@ -9,13 +12,14 @@ body {
 
 .sidebar {
     background-image: url(Images/sidebar-pexels-darius-krause.jpg);
-    width: max(600px); 
+    max-width: max(600px); 
     /* might want a min width here or maybe content will auto do it */
     height: 100vh;
     background-size: cover;
     /* make it so that it stays at a fixed width but up and down scaling resizes? */
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 
 .logo-container {
@@ -56,6 +60,13 @@ body {
 .photo-credit {
     margin-top: auto;
     color: darkblue;
+}
+
+.main-container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 10px;
 }
 
 .intro {
