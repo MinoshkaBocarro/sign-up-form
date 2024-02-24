@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
-/*.lumanosimo-regular {
-    font-family: "Lumanosimo", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }*/
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.sidebar {
+    background-image: url(Images/sidebar-pexels-darius-krause.jpg);
+    width: max(600px); 
+    /* might want a min width here or maybe content will auto do it */
+    height: 100vh;
+    background-size: cover;
+    /* make it so that it stays at a fixed width but up and down scaling resizes? */
+}
