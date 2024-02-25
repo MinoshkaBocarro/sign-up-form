@@ -121,6 +121,7 @@ label {
     font-family: inherit;
     font-size: 100%;
     display: block;
+    appearance: none;
 }
 
 label {
@@ -134,6 +135,20 @@ input {
     border: #E5E7EB solid;
 }
 
+button {
+    background-color: rgb(76, 76, 128);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px; 
+    border-style: none;  
+    border-color: transparent;
+    border-image: none;
+}
+
 /* style :visited */
 
 /* focus style inset */
+
+/* hover for button */
+ 
+/* click for button */
