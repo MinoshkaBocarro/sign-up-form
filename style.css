@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 html {
     box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 body {
@@ -13,16 +19,15 @@ body {
 .sidebar {
     background-image: url(Images/sidebar-pexels-darius-krause.jpg);
     max-width: 600px; 
-    /* might want a min width here or maybe content will auto do it */
     height: 100vh;
     background-size: cover;
-    /* make it so that it stays at a fixed width but up and down scaling resizes? */
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
 }
 
-/* not completely happy with the flexing, I'd like the sidebar to shrink along with right side shrinking*/
+
+
 
 .main-container {
     flex: 1 1 auto;
@@ -30,7 +35,11 @@ body {
     flex-direction: column;
     min-width: 495px;
     height: 100vh;
+    padding-left: 45px;
 }
+
+
+
 
 .logo-container {
     flex: 2 1 auto;
@@ -72,10 +81,59 @@ body {
     color: darkblue;
 }
 
+
+
+
 .intro {
     font-size: 1.5rem;
-    padding: 10px;
     width: 700px;
 }
 
+.intro, h1, li, button, .log-in-link {
+    font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+form h1 {
+    margin: 0; 
+}
+
+ul {
+    padding: 0; 
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+li > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+button,
+input, 
+label {
+    font-family: inherit;
+    font-size: 100%;
+    display: block;
+}
+
+label {
+
+}
+
+input {
+    width: 275px;
+    height: 35px;
+    border-radius: 5px;
+    border: #E5E7EB solid;
+}
+
 /* style :visited */
+
+/* focus style inset */
