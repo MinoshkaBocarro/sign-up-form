@@ -33,12 +33,15 @@ body {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    min-width: 495px;
     height: 100vh;
-    padding-left: 45px;
+    background-color: #F9FAFB;
 }
 
-
+.intro,
+button,
+.log-in-link {
+margin-left: 45px;
+}
 
 
 .logo-container {
@@ -84,6 +87,12 @@ body {
 
 
 
+.form-background {
+    background-color: white;
+    padding: 23px 0 23px 45px;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.2);
+}
+
 .intro {
     font-size: 1.5rem;
     width: 700px;
@@ -118,14 +127,9 @@ li > div {
 button,
 input, 
 label {
-    font-family: inherit;
     font-size: 100%;
     display: block;
     appearance: none;
-}
-
-label {
-
 }
 
 input {
@@ -143,6 +147,7 @@ button {
     border-style: none;  
     border-color: transparent;
     border-image: none;
+    margin-top: 20px;
 }
 
 /* style :visited */
