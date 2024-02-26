@@ -179,7 +179,29 @@ button {
     font-weight: 600;
 }
 
-/* style :visited */
+
+/* Pseudo-Selectors */
+.sidebar a:link {
+    color: darkblue;
+}
+
+.sidebar a:visited  {
+    color: rgb(155, 247, 255);
+}
+
+.log-in-link a:link {
+    color: rgb(76, 76, 128);
+}
+
+.log-in-link a:visited  {
+    color: rgb(155, 76, 182);
+}
+button:hover {
+    cursor: pointer;
+    outline: -webkit-focus-ring-color auto 1px;
+    ;
+}
+
 
 /* focus style inset */
 
