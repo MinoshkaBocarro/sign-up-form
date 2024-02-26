@@ -96,6 +96,15 @@ margin-left: 45px;
     font-size: 1.5rem;
     width: 700px;
     font-weight: 500;
+    padding-bottom: 40px;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.log-in-link {
+    flex-grow: 7;
 }
 
 .intro, 
@@ -104,6 +113,10 @@ margin-left: 45px;
   button, 
   .log-in-link {
     font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 
@@ -131,7 +144,6 @@ li > div {
     margin-right: 60px;
 }
 
-button,
   input, 
   label {
     font-size: 100%;
@@ -155,12 +167,16 @@ label {
 button {
     background-color: rgb(76, 76, 128);
     color: white;
-    padding: 10px 40px;
+    padding: 10px 50px;
     border-radius: 5px; 
     border-style: none;  
     border-color: transparent;
     border-image: none;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    appearance: none;
+    font-size: 1.14rem;
+    font-weight: 600;
 }
 
 /* style :visited */
