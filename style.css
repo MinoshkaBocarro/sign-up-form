@@ -16,6 +16,7 @@ body {
 }
 
 
+/* Containers */
 .sidebar {
     background-image: url(Images/sidebar-pexels-darius-krause.jpg);
     max-width: 600px; 
@@ -26,9 +27,6 @@ body {
     flex: 1 1 auto;
 }
 
-
-
-
 .main-container {
     flex: 1 1 auto;
     display: flex;
@@ -37,13 +35,8 @@ body {
     background-color: #F9FAFB;
 }
 
-.intro,
-button,
-.log-in-link {
-margin-left: 45px;
-}
 
-
+/* Sidebar Section */
 .logo-container {
     flex: 2 1 auto;
     display: flex;
@@ -86,25 +79,39 @@ margin-left: 45px;
 
 
 
-
+/* Main Content Section */
 .form-background {
     background-color: white;
     padding: 23px 0 23px 45px;
     box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.2);
 }
 
+.intro,
+  button,
+  .log-in-link {
+margin-left: 45px;
+}
+
 .intro {
     font-size: 1.5rem;
     width: 700px;
+    font-weight: 500;
 }
 
-.intro, h1, li, button, .log-in-link {
+.intro, 
+  h1, 
+  li, 
+  button, 
+  .log-in-link {
     font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 form h1 {
     margin: 0; 
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: x-large;
 }
 
 ul {
@@ -125,8 +132,8 @@ li > div {
 }
 
 button,
-input, 
-label {
+  input, 
+  label {
     font-size: 100%;
     display: block;
     appearance: none;
@@ -137,6 +144,12 @@ input {
     height: 35px;
     border-radius: 5px;
     border: #E5E7EB solid;
+}
+
+label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: .13rem;
 }
 
 button {
