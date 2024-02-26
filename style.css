@@ -165,6 +165,10 @@ label {
     letter-spacing: .13rem;
 }
 
+span {
+    height: 1rem;
+}
+
 button {
     background-color: rgb(76, 76, 128);
     color: white;
@@ -213,6 +217,11 @@ button:hover {
 input:invalid {
     border-color: red;
     outline: none;
+}
+
+.invalid-password::after {
+    content: "* Passwords do not match";
+    color: red;
 }
 
  
