@@ -3,6 +3,9 @@
 Sign Up Form Project
 - forms!
 - background
+- flex
+- pseudo-classes and pseudo-elements
+- validating using javascript
 
 Photo Credit
 "Sidebar Image" - Darius Krause https://www.instagram.com/darius.krs/

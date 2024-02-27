@@ -111,7 +111,8 @@ margin-left: 45px;
   h1, 
   li, 
   button, 
-  .log-in-link {
+  .log-in-link,
+  form > div {
     font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -122,9 +123,12 @@ p {
 
 form h1 {
     margin: 0; 
-    padding-bottom: 20px;
     font-weight: 500;
     font-size: x-large;
+}
+
+.required-notice {
+    padding-bottom: 20px;
 }
 
 ul {
